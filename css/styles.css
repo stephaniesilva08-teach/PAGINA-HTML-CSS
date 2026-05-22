@@ -5,7 +5,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: plum;
+    background-color: rgb(209, 119, 209);
     color: black;
 }
 
@@ -17,7 +17,7 @@ body {
     align-items: center;
     
     padding: 16px 5%;
-    background-color: black;
+    background-color: plum; /*modifique*/
     color: white;
     z-index: 10;
 }
@@ -40,12 +40,17 @@ body {
     text-decoration: none;
 }
 
+.nav-links a:hover {  /*esta se agrego*/ 
+    color: #4f0747;
+    transition: 0.3s;
+}   
+
 .hero {
     min-height: 65vh;
     display: flex;
     align-items: center;
     padding: 5vw;
-    background-color: rgb(77, 41, 77);
+    background: linear-gradient(135deg, #4f0747, #a30a91); /*agregue y modifique*/
     color: white;
 }
     
@@ -74,10 +79,17 @@ body {
     margin-top: 1rem;
     padding: 0.9rem 1.2rem;
     background-color: white;
-    color: #1d4ed8;
+    color: black;
     text-decoration: none;
     border-radius: 12px;
     font-weight: bold;
+    transition: all 0.3s ease; /*agregue*/
+}
+
+.button:hover { /*esta se agrego*/
+    background-color: #4f0747;
+    color: white;
+    transform: scale(1.05);
 }
 
 .container {
@@ -101,7 +113,7 @@ body {
     min-width: 220px;
     background-color: white;
     padding: 1.5rem;
-     border: 3px solid black;
+    border: 3px solid black;
     border-radius: 16px;
 }
 .card h3 {
@@ -135,11 +147,19 @@ body {
 .tags span {
     display: inline-block;
     background-color: #dbeafe;
-    color: #1d4ed8;
+    color: black;
     padding: 10px 14px;
     border-radius: 20px;
     font-weight: bold;
- }
+    transition: 0.3s; /*agregue*/
+    cursor: pointer;/*agregue*/
+}
+
+.tags span:hover { /*esta se agrego*/
+    background-color: #4f0747;
+    color: white;
+}
+
 .footer {
     margin-top: 3rem;
     padding: 1.5rem;
