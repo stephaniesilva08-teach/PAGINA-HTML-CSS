@@ -107,19 +107,25 @@ body {
     display: flex;
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: center;
 }
+
 .card {
     flex: 1;
-    min-width: 220px;
+    min-width: 250px;
+    max-width: 300px;
     background-color: white;
     padding: 1.5rem;
-    border: 3px solid black;
+    border: 3px solid #510147;
     border-radius: 16px;
+    box-shadow: 0 4px 12px rgba(167, 139, 250, 0.3);
 }
+
 .card h3 {
-    color: #1d4ed8;
+    color: #7d3373;
     margin-top: 0;
 }
+
 .profile-row {
     display: flex;
     align-items: center;
@@ -128,22 +134,27 @@ body {
     padding: 1.5rem;
     background-color: white;
     border-radius: 16px;
-    border: 3px solid black;
+    border: 3px solid #510147;
 }
+
 .profile-row img {
     width: 120px;
     height: 120px;
     border-radius: 50%;
+    border: 4px solid #4f0747;
 }
+
 .profile-row p {
     line-height: 1.6;
 }
+
 .tags {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin-top: 2rem;
 }
+
 .tags span {
     display: inline-block;
     background-color: #dbeafe;
