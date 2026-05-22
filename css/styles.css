@@ -17,7 +17,7 @@ body {
     align-items: center;
     
     padding: 16px 5%;
-    background-color: plum; /*modifique*/
+    background-color: plum; 
     color: white;
     z-index: 10;
 }
@@ -40,7 +40,7 @@ body {
     text-decoration: none;
 }
 
-.nav-links a:hover {  /*esta se agrego*/ 
+.nav-links a:hover {  
     color: #4f0747;
     transition: 0.3s;
 }   
@@ -50,7 +50,7 @@ body {
     display: flex;
     align-items: center;
     padding: 5vw;
-    background: linear-gradient(135deg, #4f0747, #a30a91); /*agregue y modifique*/
+    background: linear-gradient(135deg, #4f0747, #a30a91); 
     color: white;
 }
     
@@ -83,10 +83,10 @@ body {
     text-decoration: none;
     border-radius: 12px;
     font-weight: bold;
-    transition: all 0.3s ease; /*agregue*/
+    transition: all 0.3s ease;
 }
 
-.button:hover { /*esta se agrego*/
+.button:hover { 
     background-color: #4f0747;
     color: white;
     transform: scale(1.05);
@@ -151,11 +151,11 @@ body {
     padding: 10px 14px;
     border-radius: 20px;
     font-weight: bold;
-    transition: 0.3s; /*agregue*/
-    cursor: pointer;/*agregue*/
+    transition: 0.3s; 
+    cursor: pointer;
 }
 
-.tags span:hover { /*esta se agrego*/
+.tags span:hover { 
     background-color: #4f0747;
     color: white;
 }
