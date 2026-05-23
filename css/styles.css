@@ -9,7 +9,7 @@ body {
     color: black;
 }
 
-.navegacion {
+.navbar{
     position: sticky;
     top: 0;
     display: flex;
